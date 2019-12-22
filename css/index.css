@@ -4,6 +4,9 @@
     line-height: 1;
     vertical-align: middle
 }
+html,body{
+    overflow-x: hidden;
+}
 .wrap{
     max-width: 7.5rem;
     margin: 0 auto;
