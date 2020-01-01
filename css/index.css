@@ -20,6 +20,7 @@ html,body{
     width: 100%;
     vertical-align: middle;
     margin-top: -1px;
+    height: auto;
 }
 .ba{
     padding-bottom: 2.38rem;
