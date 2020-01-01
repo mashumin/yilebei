@@ -153,7 +153,7 @@
         function scro(){
             $("img").each(function(a,b){
                 console.log($(window).height())
-            if($(this).offset().top+10<($(window).height()+$(window).scrollTop())){
+            if($(this).offset().top-10<($(window).height()+$(window).scrollTop())){
             console.log($(this))
                 $(this).attr('src',$(this).attr('srcs'))
             }
